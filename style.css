@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 50%;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, rgb(51, 102, 255) 0%, rgb(0, 0, 102) 33%, rgb(51, 102, 255) 66%, rgb(51, 51, 204));
+	/*	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	background-size: 400% 400%;
+	background-attachment: fixed;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+	font-size: 20px;
+	width: 50%;
+	position: relative;
+	text-align: center;
+	top: 10%;
+	bottom: 20%;
+	margin: auto;
+}
+
+img {
+	box-shadow: 0px 0px 50px #fff;
+}
+
+.align-center {
+	position: relative;
+	text-align: center;
+	width: 50%;
+}
+
+hr.linebreak {
+	width: 40%;
+	height: 0.5px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 10px #333;
+}
+
+ul {
+	display:inline-block;
+	text-align:left;
+}
+
+h1 {
+	color: #eee;
+	text-shadow: 0px 0px 50px #333;
+	font-weight: 300;
+}
+
+h2 {
+	text-shadow: 0px 0px 25px #333;
+	font-weight: 300;
+}
+
+h3 {
+	text-shadow: 0px 0px 25px #333;
+	color: #eee;
+	font-weight: 300;
+}
+
+h5 {
+	color:#eee;
+	font-weight:300;
+}
+
+p {
+	color:#eee;
+	font-weight:300;
+}
+
+a,
+a:hover {
+	text-decoration: bold;
+	color: #22ffff;
+}
